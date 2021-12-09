@@ -1,0 +1,4 @@
+1. How to aligh the button items equally without assigning a specific margin value and how to make them dynamic? solved
+2. /* Centering the images in the cardBox */
+3. How to call js function from another js file
+4. What's the get function in Card and why the deck does not have it?

@@ -1,0 +1,106 @@
+/* ---WEBSITE LAYOUT--- */
+html{
+    height:100%;
+}
+body {
+    width: 70%;
+    height:100%;
+    margin: auto;
+    background-color:lightyellow;
+}
+/* margin:auto->auto body go to middle */
+
+main{
+    padding-bottom: 2%;
+    height:100%;
+    /* Why 100% not working */
+}
+
+.textAlignArea{
+    font-size: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.textAlignArea p{
+    margin: auto;
+    text-align: center;
+    width:50%;
+}
+
+#resultArea{
+    background-color: rgb(2, 102, 2);
+    height:8%;
+    color: white;
+}
+
+/* ---CONTROL AREA--- */
+.controlArea{
+    background-color: green;
+    padding-bottom: 2%;
+    height:8%;
+}
+/* General Buttons in Control Area */
+.controlArea button{
+    font-size: 8%;
+    height: 80%;
+    width:10%;
+    border:none;
+    border-radius: 8px;
+    cursor:pointer;
+    box-shadow: 0 6px lightgray;
+    color: white;
+    background-color: black;
+    margin-left:11%;
+    margin-right:11%;
+    margin-top: 1%;
+}
+
+.controlArea button:active{
+    background-color: rgb(36, 35, 35);
+    box-shadow: 0 2px gray;
+    transform: translateY(4px);
+}
+
+/* ---CARD AREA--- */
+/* Idea: divide this area into two column */
+#cardArea{
+    height:60%;
+    background-color: rgb(2, 102, 2);
+}
+
+#playerArea{
+    display: block;
+}
+#dealerArea{
+    display: block;
+}
+.row{
+    display: flex;
+}
+
+.column{
+    /* what is inline-flex and inline-flexbox?? */
+    display: inline-flex; 
+    flex:50%;
+}
+.column:nth-child(1){
+    background-color: cadetblue;
+}
+.column:nth-child(2){
+    background-color: coral;
+}
+
+.cardBox{
+    margin:40px;
+}
+
+.scoreBox{
+    text-align: center;
+}
+
+/* ---SETTINGS AREA--- */
+.settingArea{
+    height:5%;
+    background-color: rgb(1, 43, 1);
+}

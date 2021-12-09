@@ -1,0 +1,13 @@
+11/11
+1. created the columns with row and column class
+row display flex
+column display inline flex box and flex 50% -> 2 cloumns
+
+2. playerArea display block will display the cardBox and scoreBox as blocks so they wont collapse with each other
+. Try removing block to see what i mean
+
+3. We can use $(#class .id) to selected a id in that class
+
+4.when we create the new imgage by jquery setting width is a double with no units. img
+var img = new Image()
+img.width = 100//how can we chanage the units, is there a different way??

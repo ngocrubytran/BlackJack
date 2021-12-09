@@ -1,0 +1,62 @@
+/* ---WEBSITE LAYOUT--- */
+html{
+    height:100%;
+}
+body {
+    width: 70%;
+    height:100%;
+    margin: auto;
+    background-color:lightyellow;
+}
+/* margin:auto->auto body go to middle */
+
+main{
+    padding-bottom: 2%;
+    height:75%;
+    background-color: rgb(2, 102, 2);
+}
+
+div.container4 {
+    height: 10em;
+    position: relative }
+div.container4 p {
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+    div.container4 button {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 100%);
+        font-size: 8%;
+            height: 40%;
+            width:10%;
+            border:none;
+            border-radius: 8px;
+            cursor:pointer;
+            box-shadow: 0 6px lightgray;
+            color: white;
+            background-color: black;
+           
+     }
+
+
+        
+        .controlArea button:active{
+            background-color: rgb(36, 35, 35);
+            box-shadow: 0 2px gray;
+            transform: translateY(4px);
+        }
+/* ---SETTINGS AREA--- */
+.settingArea{
+    height:5%;
+    background-color: rgb(1, 43, 1);
+}
+

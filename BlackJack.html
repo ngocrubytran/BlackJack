@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="BlackJack.css">
+    <script src="jquery.js"></script>
+    <!-- <script src="test.js"></script> -->
+    <script src="game.js"></script>
+</head>
+<!-- Creating the user interface with button. The images of the cards will appear in the box you assign to them
+we can add effects to the buttons and the cards movement
+design your website as you want -->
+
+<body>
+    <main>
+        <!-- home page/restart and sound button -->
+        <div class="settingArea">
+
+        </div>
+
+        <!-- Card Area -->
+        <div id="cardArea" class="row">
+            <!-- Player Area -->
+            <div id="playerArea" class="column">
+                <!-- ScoreBox -->
+                <div class="scoreBox textAlignArea" style="background-color: aliceblue; height: 10%;width: 100%;">
+                    <p></p>
+                </div>
+                <!-- there are three cards in a row -->
+                <div class="cardBox"></div>
+            </div>
+
+            <!-- Dealer Area -->
+            <div id="dealerArea" class="column">
+                <div class="scoreBox textAlignArea"
+                    style="background-color: rgb(186, 213, 236); height: 10%;width: 100%;">
+                    <p></p>
+                </div>
+                <div class="cardBox"></div>
+
+            </div>
+        </div>
+
+        <div id="resultArea" class="textAlignArea">
+            <p></p>
+        </div>
+
+        <!-- Control Area -->
+        <!-- Relative position -->
+        <!-- using div width 100%/3 put button inside divs -->
+        <!-- Stack view like in mobile -->
+        <div class="controlArea">
+            <button id="hit">HIT</button>
+            <button id="stand">STAND</button>
+            <button id="deal">DEAL</button>
+        </div>
+
+    </main>
+</body>
+
+</html>
